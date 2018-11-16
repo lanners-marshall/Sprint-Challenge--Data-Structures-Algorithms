@@ -6,9 +6,8 @@ b) O(n^4)
 
 c) O(n)
 
-
+```python
 lowest_break_floor = 55
-
 #iterative solution, for 100 floor building
 def min_regret(lowest_break_floor):
   attemps = 0
@@ -97,3 +96,4 @@ def binary_search(building, lowest_break_floor, count):
     return binary_search(building[mid:], lowest_break_floor, count + 1)
 
 binary_search(building, lowest_break_floor, count)
+```
