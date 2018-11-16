@@ -95,5 +95,5 @@ def binary_search(building, lowest_break_floor, count):
   else:
     return binary_search(building[mid:], lowest_break_floor, count + 1)
 
-binary_search(building, lowest_break_floor, count)
+binary_search(building, 12, count)
 ```
